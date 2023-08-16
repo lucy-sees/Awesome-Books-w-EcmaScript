@@ -95,6 +95,6 @@ I would like to thank all of my code reviewers for giving me constructive feedba
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE/MIT.md) licensed.
+This project is [MIT](https://github.com/lucy-sees/Awesome-Books-w-EcmaScript/blob/049d381c4882d4654231d2780b88d4bc98bad9b0/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
