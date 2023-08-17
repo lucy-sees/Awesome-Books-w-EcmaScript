@@ -1,12 +1,10 @@
 <a name="readme-top"></a>
 
 <div align="center">
-
-  <img src="./Lucy.png" alt="logo" width="140"  height="auto" />
+  <img src="Lucy.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-<h3><b>Awesome books</b></h3>
-
+  <h3><b>Awesome Books</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -17,17 +15,19 @@
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [📺 Presentation](#presentation)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 # 📖 Awesome Books <a name="about-project"></a>
 
-**Awesome Books** In this project, I made a basic website that allows users to add/remove books from a list. I achieved that by using ECMAScript 6.
+**Awesome Books** A basic website that allows users to add/remove books from a list.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -36,11 +36,22 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li>HTML</li>
-    <li>JavaScript</li>
-    <li>CSS</li>
-    </ul>
+    <li><a href="https://html.com/">HTML</a></li>
+    <li><a href="https://www.css3.com/">CSS</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+    <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+  </ul>
 </details>
+
+### Key Features <a name="key-features"></a>
+
+- List Section - Displays the list of books added via the form section.
+
+- Add New Section - Displays a form through which you can add a book and its author to the list.
+
+- Contact Section - Displays contacts (email, phone number...).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -50,18 +61,25 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps:
-
-```sh
-  git clone git@github.com:billymohajeri/awesome-books.git
-```
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
+Install Git Bash, Web browser and code editor
 
-- Code Editor: VS Code
-- Web Browser
+### Setup
+
+Clone this repository to your desired folder:
+cd my-folder
+git clone git@github.com:myaccount/https://github.com/lucy-sees/Awesome-Books-w-EcmaScript.git
+
+### Deployment
+
+You can deploy this project using:
+Web Browser
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -83,13 +101,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, you can support me by giving a ⭐.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank all of my code reviewers for giving me constructive feedback.
+If you like this project give it a star!!!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
