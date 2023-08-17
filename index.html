@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./index.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <title>Awesome Books</title>
+</head>
+
+<body>
+  <header class="container-fluid">
+    <nav class="navbar">
+      <p class="display-6 fw-bold mx-1 font-comic-neue">Awesome Books</p>
+      <ul class="nav justify-content-end">
+        <li id="list-li" class="nav-item px-1 pointer">
+          <p class="h4 fw-bold font-comic-neue">List |</p>
+        </li>
+        <li id="add-li" class="nav-item px-1">
+          <p class="h4 fw-bold font-comic-neue">Add new |</p>
+        </li>
+        <li id="contact-li" class="nav-item px-1">
+          <p class="h4 fw-bold font-comic-neue">Contact</p>
+        </li>
+      </ul>
+    </nav>
+    <section class="time font-comic-neue display-6"></section>
+  </header>
+
+  <section class="main-container d-flex flex-column justify-content-center container-fluid">
+    <section class="books-list w-75 text-center mx-auto">
+      <p class="h1 display-4 fw-bold font-comic-neue">My Awesome Books</p>
+      <section id="saved-books"></section>
+    </section>
+
+    <form class="add-book-form d-none container">
+      <p class="h1 font-comic-neue">Add a new book</p>
+      <input type="text" placeholder="Title" id="title" required />
+      <br />
+      <br />
+      <input type="text" placeholder="Author" id="author" required />
+      <br />
+      <button id="add" type="submit">Add</button>
+    </form>
+  </section>
+
+  <section class="contact-info d-none card-footer container">
+    <p class="h1 display-5 fw-bold text-center font-comic-neue">Contact information</p>
+    <p class="h2 text-center font-comic-neue">
+      Do you have any questions or you just want to say "Hello"?<br />You
+      can reach out to us!
+    </p>
+    <ul class="list-group display-6">
+      <li class="list-group-item font-comic-neue">Our e-mail: <a href="lucysees254@gmail.com">lucysees254@gmail.com</a></li>
+      <li class="list-group-item font-comic-neue">Our phone number: <a href="tel:+254772089456">+254772089456</a></li>
+      <li class="list-group-item font-comic-neue">Our address: Dedan Kimathi Street, 360 Nairobi, Kenya</li>
+    </ul>
+  </section>
+  <script type="module" src="./index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
